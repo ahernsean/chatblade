@@ -33,7 +33,7 @@ brew install chatblade
 
 #### A new conversation
 
-You can begin any query by just typing. f.e.:
+You can begin any query by just typing. e.g.:
 
 ```bash
 chatblade how can I extract a still frame from a video at 22:01 with ffmpeg
@@ -63,7 +63,7 @@ chatblade -l can we make a gif instead from 00:22:01 to 00:22:04
 
 By default, gpt-3.5 is used, you can switch at any point to 4 by using `-c 4` or the latest 4o ("omni") by using `-c 4o`.
 
-Additionally, you can pass any arbitrary full model name, f.e. `-c gpt-3.5-turbo-16k`.
+Additionally, you can pass any arbitrary full model name, e.g. `-c gpt-3.5-turbo-16k`.
 
 #### Chatting interactively
 
@@ -225,7 +225,7 @@ chatblade can be used with an Azure OpenAI endpoint, in which case in addition t
 
 - `OPENAI_API_TYPE` :: Set to `azure`. As required by [openai-python](https://github.com/openai/openai-python)
 - `AZURE_OPENAI_ENDPOINT` :: URL to your cognitive services' endpoint, e.g. `https://eastus.api.cognitive.microsoft.com/`. Please note this is a *breaking change* introduced by `openai-python` and the previous environment variable name is `OPENAI_API_BASE`
-- `OPENAI_API_AZURE_ENGINE` :: name of your deployment in Azure, f.e. `my-gpt-35-turbo` (maps to a specific model)
+- `OPENAI_API_AZURE_ENGINE` :: name of your deployment in Azure, e.g. `my-gpt-35-turbo` (maps to a specific model)
 
 *Note*: that this will override any option for `-c 3.5` or `-c 4` which don't make sense in this case.
 
