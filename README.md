@@ -71,7 +71,7 @@ If you preferred to chat interactively instead just use `chatblade -i`.
 
 #### Show streaming text (experimental)
 
-You can also stream the responses, just like in the webui. At the end of the stream it will format the result. This can be combined in an interactive session
+You can also stream the responses, just like in the web UI. At the end of the stream it will format the result. This can be combined in an interactive session
 
 ```chatblade -s -i```
 
@@ -100,7 +100,7 @@ chatblade -l -e | jq
 
 ### Piping content into chatblade
 
-If we have long prompts we don't want to type everytime, or just want to provide context for our query we can pipe into chatblade.
+If we have long prompts we don't want to type every time, or just want to provide context for our query we can pipe into chatblade.
 
 e.g.
 
