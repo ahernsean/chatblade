@@ -140,7 +140,7 @@ chatblade will create a session called SESS if it does not exist, and it will st
 
 If such a session already exists, the saved conversation will be loaded and the new exchange will be appended.
 
-Without a session argument, the exchange also gets stored in a session named `last`; however, subsequent sessionless invocation will overwrite the content of `last`. (You can continue a conversation that was started as a sessionless exchange by passing `-S last`, but `last` won't be a safe space for keeping a conversation, as the next sessionless invocation will clear it again.) The `-l` option is provided as a shorthand for `-S last`.
+Without a session argument, the exchange also gets stored in a session named `last`; however, subsequent invocations without a session argument will overwrite the content of `last`. (You can continue a conversation that was started without a session argument by passing `-S last`, but `last` won't be a safe space for keeping a conversation, as the next invocation without a session argument will clear it again.) The `-l` option is provided as a shorthand for `-S last`.
 
 If you specify a session without a query:
 
